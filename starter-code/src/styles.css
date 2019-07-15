@@ -1,0 +1,43 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+  padding: 3vw;
+  background-color:rgb(52, 52, 87);
+  color: white;
+}
+.head p{
+  font-size: 20px;
+}
+.nav{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between; 
+  margin-bottom: 5vw;
+}
+.container{
+  padding: 5vw;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly; 
+}
+.main{
+  display:flex;
+}
+h1{
+  font-size: 5vw;
+}
+
+button{
+  border: none;
+  color:black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 50px 2px;
+  cursor: pointer;
+  border-radius: 4px
+}
